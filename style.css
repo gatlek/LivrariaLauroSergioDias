@@ -1,12 +1,11 @@
 html { 
    font-size: 10px; 
-   font-family: placeholder; 
-   background-image: url(haa.jpg);
-   
+   font-family: placeholder;   
 }
 
 body{
-
+background-image: url(haa.jpg);
+background-size: 100%;
 }
  
 #cabeca{
