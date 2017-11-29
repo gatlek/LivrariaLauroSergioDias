@@ -1,0 +1,52 @@
+	<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+
+    
+
+<div id="cabeca" align="center">
+<a href="index.html"> <img src="lauro.jpg" alt="" width="220" height="156" class="logotipo"/></a>
+<h1 id="logo" align="center">Seja bem vindo de volta! </h1>
+<h1 align="center">Lauro Sergio Dias</h1>
+<h1 align="center">&nbsp;</h1>
+</div>
+
+<form method="POST" action="cadastraProduto.php">
+<div id="corpo" align="center">  <h1 align="center">ADMIN</h1> </div>
+
+<div id="corpo" align="center"> 
+<h2>Adicionar novos Produtos</h2>
+<div id="add">
+<label class="esquerda"  >Produto:</label><input name="Produto" type="text" class="campo" id="Produto"><br>
+<label class="esquerda"  >ID do produto:</label><input name="IDp" type="text" class="campo" id="IDp"><br>
+<label class="esquerda"  >Preço:</label><input name="preco" type="text" class="campo" id="preco"><br>
+<label class="esquerda"  >Categoria:</label><input name="categoria" type="text" class="campo" id="categoria"><br>
+<label class="esquerda"  >Descrição:</label><input name="descricao" type="text" class="campo" id="descricao"><br>
+	</div>
+ <input type="submit" value="Cadastrar Produto" id="Cadastrar" name="Cadastrar"><br>
+
+</div>    
+<div id="corpo" align="center">
+    <h1 align="center">Estoque</h1>
+    <label  >Id Produto:</label><input type="text" name="IDp2" id="IDp2"><br>
+    <input type="submit" value="Verificar no estoque" id="qtd" name="qtd"> <br><br>Quantidade: <p id='qttAtual'></p>
+      <input type="submit" value="+" id="addp" name="addp"><input type="submit" value="-" id="removep" name="removep">
+</div>
+
+<div id="corpo" align="center">
+    <h1 align="center">Clientes</h1>
+    <p id="lista">LISTA CLIENTES AQUI</p>
+</div>
+    
+
+</div>
+   </form> 
+    
+
+    </body>
+</html>

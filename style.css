@@ -4,17 +4,17 @@ html {
 }
 
 body{
-background-image: url(haa.jpg);
+background-image: url(haa.png);
 background-size: 100%;
 }
  
 #cabeca{
-  width: 700px;
-  margin: 0 auto;
-  margin-top: 100px;
-  background-color: #FF9500;
-  padding: 50px 100px 50px 90px;
-  border: 5px solid black;
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #FF9500;
+	padding: 50px 100px 50px 90px;
+	border: 5px solid black;
 }
 
 #logo {
@@ -34,19 +34,19 @@ background-size: 100%;
 }
 
 #corpo {
-  font-size: 30px;
-  text-align: center;
-  width: 700px;
-  margin: 0 auto;
-  margin-top: 100px;
-  background-color: #FF9500;
-  padding: 30px 100px 60px 90px;
-  border: 5px solid black;
+	font-size: 30px;
+	text-align: center;
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #FF9500;
+	padding: 30px 100px 60px 90px;
+	border: 3px solid black;
 }
 #contato {
   font-size: 30px;
   text-align: center;
-  width: 1680px;
+  width: 1000px;
   margin: 0 auto;
   margin-top: 100px;
   background-color: #FF9500;
@@ -59,3 +59,42 @@ background-size: 100%;
 	text-decoration: none;
 
 } 
+label{
+    font-size: 30px;
+  text-align: right;
+
+}
+
+@media screen{
+#add {
+	width: auto;
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+}
+.campo {
+	float: right;
+}
+.esquerda {
+	float: left;
+}
+.logotipo {
+	float: none;
+	width: 200px;
+	margin-bottom: 0px;
+	bottom: 0px;
+	margin-left: 10px;
+}
+.vetor {
+	float: left;
+	width: 50px;
+	height: auto;
+	margin-top: 70px;
+}
+.vetoresquerda {
+	width: 50px;
+	height: auto;
+	float: right;
+	margin-top: 70px;
+}

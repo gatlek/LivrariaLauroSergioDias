@@ -6,29 +6,111 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     </head>
     <body>
-     <form method="POST" action="login.php">
-    
-
-<div id="cabeca" align="center">
-<h1 id="logo" align="center">LOGO DA EMPRESA</h1>
+<form method="POST" action="cadastro.php">
+  
+  
+  <img src="lauro.jpg" alt="" width="220" height="156" class="logotipo"/>
+  <div id="cabeca" align="center">
+<h1 id="logo" align="center">Lauro Sergio Dias</h1>
 </div>
 <div id="corpo" align="center">
-<h1 align="center">Já sou cliente</h1>
+<h1 align="center">Cadastro</h1>
+<div id="add">
 
-<label  >E-mail:</label><input type="text" name="email" id="email"><br>
-<label  >Senha:</label><input type="password" name="senha" id="senha"><br>
+<label  >Nome:</label><input name="nome" type="text" class="campo" id="nome"><br>
+<label  >CPF:</label><input name="cpf" type="text" class="campo" id="cpf"><br>
+<label> Nascido em: 
+    <select name="dia" class="campo">
+        <option value="" disabled selected>Dia</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">29</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+    </select>
 
-<input type="submit" value="voltar" id="voltar" name="Voltar"> <input type="submit" value="entrar" id="entrar" name="entrar"><br>
-<a href="cadastro.html" >Ainda não sou cliente. Cadastre-se aqui!</a></div>
+    <select name="mes" class="campo">
+    <option value="" disabled selected>Mes</option>
+    <option value="Janeiro">Janeiro</option>
+    <option value="Fevereiro">Fevereiro</option>
+    <option value="Março">Março</option>
+    <option value="Abril">Abril</option>
+    <option value="Maio">Maio</option>
+    <option value="Junho">Junho</option>
+    <option value="Julho">Julho</option>
+    <option value="Agosto">Agosto</option>
+    <option value="Setembro">Setembro</option>
+    <option value="Outubro">Outubro</option>
+    <option value="Novembro">Novembro</option>
+    <option value="Dezembro">Dezembro</option>
+</select>
+
+<select name= "ano" class="campo"> 
+<option value="" disabled selected>Ano</option>
+    <option value="1990">1990</option>
+    <option value="1991">1991</option>
+    <option value="1992">1992</option>
+    <option value="1993">1993</option>
+    <option value="1994">1994</option>
+    <option value="1995">1995</option>
+    <option value="1996">1996</option>
+    <option value="1997">1997</option>
+    <option value="1998">1998</option>
+    <option value="1999">1999</option>
+    <option value="2000">2000</option>
+    <option value="2001">2001</option>
+    <option value="2002">2002</option>
+    <option value="2003">2003</option>
+    <option value="2004">2004</option>
+    <option value="2005">2005</option>
+    <option value="2006">2006</option>
+</select>
+    </label><br>
+<label  >Login:</label><input name="login" type="text" class="campo" id="login"><br>
+<label  >Senha:</label><input name="senha" type="password" class="campo" id="senha"><br>
+<label  >Endereço:</label><input name="end" type="text" class="campo" id="end"><br>
+	
+  </div>
+<br><label> Concordo com os termos e condições: <input type="checkbox" name="concordo"><br><br></label>
+ <input type="submit" value="Cadastrar" id="Cadastrar" name="Cadastrar"><br>
+
 </form>
-    
+
+</div>
+
+
     <div id="contato" align="center">
  <h1 id="subtitulo" align="center">Contato</h1>
-<p>
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-</p>
-
-</div>    
+ <a href="https://twitter.com/coloradosergio_"><img src="tw.png" alt="" width="300" height="300" class="vetor"/></a><img src="seguro.png" alt="" width="854" height="350" class="vetoresquerda"/><img src="blindagem.jpg" alt="" width="200" height="200" class="vetoresquerda"/><img src="gmail.png" alt="" width="225" height="225" class="vetor"/>
+	<a href="https://www.facebook.com/laurosergiodias.dias">	<img src="fb.png" alt="" width="250" height="250" class="vetor"/></a>
+ <p> Venha transcender conosco!</p>
+    </div>    
 
     </body>
 </html>
